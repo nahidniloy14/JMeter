@@ -47,8 +47,9 @@ log.info(vars.get(&quot;username&quot;));
 String username=vars.get(&quot;username&quot;);
 if (username.equals[&quot;14&quot;])
 {
-	var.get(&quot;username&quot;);
-	log.info(&quot;Time Table is&quot;,+dayDate);
+	dayDate=vars.get(&quot;username&quot;)+&quot;Luckyday&quot;;
+	vars.put(&quot;Time Table is&quot;,dayDate);
+	log.info(&quot;Time Table&quot;+dayDate);
 }
 </stringProp>
         </BeanShellPreProcessor>
